@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+#search-box {
+  font: inherit;
+  padding: 12px;
+  max-width: 320px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #333;
+}
+
+#search-box::placeholder {
+  font-size: 18px;
+  color: #777;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.country-card {
+  display: inline-block;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.country-card--header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.country-card--name {
+  margin: 0;
+  padding: 0;
+  font-size: 28px;
+  font-weight: 600;
+  margin-left: 10px;
+  color: #333;
+}
+
+.country-card--field {
+  font-weight: 600;
+  color: #555;
+}
+
+.country-list--item {
+  display: flex;
+  align-items: center;
+}
+
+.country-list--item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.country-list--name {
+  font-weight: 600;
+  margin-left: 10px;
+  color: #333;
+}
+
+.country-value {
+  font-weight: normal;
+  font-size: 18px;
+  color: #555;
+}
